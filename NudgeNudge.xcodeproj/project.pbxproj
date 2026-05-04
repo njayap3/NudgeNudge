@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0689E1DBB062F3F2CD0193 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B057CEFC8AE209D5D263E5 /* SettingsView.swift */; };
+		16184200126E591BD0F74A27 /* NudgePreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1617084622B929686F32FA48 /* NudgePreset.swift */; };
+		1ACC0549FB89DDBB3BCAC422 /* NudgeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C33BB40B083E730BB232E /* NudgeRowView.swift */; };
+		1CCA671614A50C45F07F90CD /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F684ED0B98E3C8DAE2B7F79 /* Date+Extensions.swift */; };
+		20316B43E28BF8B00A3AAE6C /* NudgeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9D6E05539E8A459099BF3 /* NudgeRecord.swift */; };
+		20DBFE81A622DAF86095943A /* CreateNudgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F5EB72F0D44EFA8297FF8 /* CreateNudgeViewModel.swift */; };
+		25B046BB005F2AAF9E8B521F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1871ED194C09EF8AA37935F /* HomeViewModel.swift */; };
+		3071AF46D871AFF897F99060 /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AFCDBC2E573FABB36F7281 /* PersonRowView.swift */; };
+		34DC891AE7A81EC7BC70D265 /* NudgeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB5FA9E17CBBBB0383BED1B /* NudgeListView.swift */; };
+		4639C7C51EBD276CE76A78F8 /* CreateNudgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A34D3157E5666C2CF98CE /* CreateNudgeView.swift */; };
+		4B36610CC1AFA689A2A6DB36 /* NudgeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2C25454A1150D35F695EBF /* NudgeListViewModel.swift */; };
+		586EA8C8B0859550736DBA33 /* AddPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0676D1076410E02E43944A96 /* AddPersonView.swift */; };
+		5AEB4C41FA02F8B8C3E82BB5 /* Nudge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B999D6F4C1F15EFACBAE346B /* Nudge.swift */; };
+		60470F4453746358CBF18A31 /* ActivityRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D2B99C7A5507E7B2F0A86 /* ActivityRowView.swift */; };
+		7352A16FB5318F0621F36EAB /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198CF2FC1F6033FF2D66E627 /* Color+Extensions.swift */; };
+		85019C248F1DCA2DDAEEFDA6 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8F763BB78D89530084D3E /* MeView.swift */; };
+		94942643CE27200CD7FCD68E /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B309814C1B3A168BFA35B6A /* AppDependencies.swift */; };
+		9EEC6361D7B8BF9885465073 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F096EE0F8B7F76B4272ED /* ContentView.swift */; };
+		A6A7BA076D990A071D05C2BD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05E120D2734FC70AD2875A /* HomeView.swift */; };
+		C52BCCA1095D127111123BF7 /* NudgeNudgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED4C897C0613449C14762C /* NudgeNudgeApp.swift */; };
+		E101D1F2DCAE458E4F6B3EA9 /* NudgeNudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D8A76E5CD1816080E7C374 /* NudgeNudgeTests.swift */; };
+		E2049095C9C793DB49E75500 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D1274DF9F14C91BDC8295 /* ActivityView.swift */; };
+		EB295B3E530B566067B56AFB /* SendNudgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9784D05B34D3C0668E9E4E /* SendNudgeView.swift */; };
+		F11350F8F7714BAB86ADF9A3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD15B9779CDCE94EDD2A097 /* NotificationService.swift */; };
+		F984B41B8A2124993777D067 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14357485034EBD3C937F818 /* Person.swift */; };
+		FBB75A826288FA64750EB529 /* NudgeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DBB27D7405CD99FDCF1DD /* NudgeService.swift */; };
+		FDFAD7EA9EF5E73FF43F0238 /* NudgeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274617B2774FCBDDE41A4135 /* NudgeDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F16B69808F78BA0D26C6114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80252F44DE0820B90AAB1BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF7F14A7D0BF5736537D492;
+			remoteInfo = NudgeNudge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0676D1076410E02E43944A96 /* AddPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonView.swift; sourceTree = "<group>"; };
+		096F5EB72F0D44EFA8297FF8 /* CreateNudgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNudgeViewModel.swift; sourceTree = "<group>"; };
+		0DCEB67CFB1EAE5058F9C497 /* NudgeNudge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NudgeNudge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1617084622B929686F32FA48 /* NudgePreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgePreset.swift; sourceTree = "<group>"; };
+		176D1274DF9F14C91BDC8295 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		198CF2FC1F6033FF2D66E627 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		274617B2774FCBDDE41A4135 /* NudgeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeDetailView.swift; sourceTree = "<group>"; };
+		2B1A34D3157E5666C2CF98CE /* CreateNudgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNudgeView.swift; sourceTree = "<group>"; };
+		2E2D2B99C7A5507E7B2F0A86 /* ActivityRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRowView.swift; sourceTree = "<group>"; };
+		4CD15B9779CDCE94EDD2A097 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		53D8A76E5CD1816080E7C374 /* NudgeNudgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeNudgeTests.swift; sourceTree = "<group>"; };
+		6F684ED0B98E3C8DAE2B7F79 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		7B309814C1B3A168BFA35B6A /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		7F2C25454A1150D35F695EBF /* NudgeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeListViewModel.swift; sourceTree = "<group>"; };
+		82B057CEFC8AE209D5D263E5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8A9784D05B34D3C0668E9E4E /* SendNudgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNudgeView.swift; sourceTree = "<group>"; };
+		8D05E120D2734FC70AD2875A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		96D9D6E05539E8A459099BF3 /* NudgeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeRecord.swift; sourceTree = "<group>"; };
+		9A0C33BB40B083E730BB232E /* NudgeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeRowView.swift; sourceTree = "<group>"; };
+		A14357485034EBD3C937F818 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A61F096EE0F8B7F76B4272ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B999D6F4C1F15EFACBAE346B /* Nudge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nudge.swift; sourceTree = "<group>"; };
+		BCB5FA9E17CBBBB0383BED1B /* NudgeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeListView.swift; sourceTree = "<group>"; };
+		C1260DD42E7296ADCB566815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8A8F763BB78D89530084D3E /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		C8ED4C897C0613449C14762C /* NudgeNudgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeNudgeApp.swift; sourceTree = "<group>"; };
+		CC474A7A946250562AA19E05 /* NudgeNudgeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NudgeNudgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00DBB27D7405CD99FDCF1DD /* NudgeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeService.swift; sourceTree = "<group>"; };
+		F1871ED194C09EF8AA37935F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F9AFCDBC2E573FABB36F7281 /* PersonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02B62B1849B58E98E8674F42 /* NudgeNudgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D8A76E5CD1816080E7C374 /* NudgeNudgeTests.swift */,
+			);
+			path = NudgeNudgeTests;
+			sourceTree = "<group>";
+		};
+		135061C1D832805873B18556 = {
+			isa = PBXGroup;
+			children = (
+				CE84A2D2F3EE950DFD296F3F /* App */,
+				94A5848DC9B06CD5CD25531B /* Core */,
+				C7CF86B85A8695FD2D7496EB /* Features */,
+				A0B6EFE9C7018A76FD819190 /* Models */,
+				02B62B1849B58E98E8674F42 /* NudgeNudgeTests */,
+				86B4B58D1582F3E10BDBC41E /* Repositories */,
+				F676E9E290FA15E0FB721501 /* Services */,
+				FFC1840DF78F95A3A1073256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5793ECF83374935D2016B35E /* Nudges */ = {
+			isa = PBXGroup;
+			children = (
+				BDF14C1987FFB639B3DC9C3C /* Create */,
+				AAD4284788DBFE9C913C711C /* Detail */,
+				7A0FCA36025A63F635216519 /* List */,
+			);
+			path = Nudges;
+			sourceTree = "<group>";
+		};
+		7A0FCA36025A63F635216519 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5FA9E17CBBBB0383BED1B /* NudgeListView.swift */,
+				7F2C25454A1150D35F695EBF /* NudgeListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		86B4B58D1582F3E10BDBC41E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		89D9E55476DFEA4C6DFAE1C9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C8A8F763BB78D89530084D3E /* MeView.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8EF8738588C25A6AFE3B1446 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				198CF2FC1F6033FF2D66E627 /* Color+Extensions.swift */,
+				6F684ED0B98E3C8DAE2B7F79 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94A5848DC9B06CD5CD25531B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D0236A940EB253610AC9A9D3 /* Components */,
+				8EF8738588C25A6AFE3B1446 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A0B6EFE9C7018A76FD819190 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B999D6F4C1F15EFACBAE346B /* Nudge.swift */,
+				1617084622B929686F32FA48 /* NudgePreset.swift */,
+				96D9D6E05539E8A459099BF3 /* NudgeRecord.swift */,
+				A14357485034EBD3C937F818 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A51DBBB1C2F59F194FAC2D8E /* People */ = {
+			isa = PBXGroup;
+			children = (
+				0676D1076410E02E43944A96 /* AddPersonView.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		AAD4284788DBFE9C913C711C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				274617B2774FCBDDE41A4135 /* NudgeDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		AB63CFDDDE1810EF37879847 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				82B057CEFC8AE209D5D263E5 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B7B4878C9044CFAF16DB0AA9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8D05E120D2734FC70AD2875A /* HomeView.swift */,
+				F1871ED194C09EF8AA37935F /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BDF14C1987FFB639B3DC9C3C /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A34D3157E5666C2CF98CE /* CreateNudgeView.swift */,
+				096F5EB72F0D44EFA8297FF8 /* CreateNudgeViewModel.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		C7CF86B85A8695FD2D7496EB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D70FDA9558E58A0C63D2F044 /* Activity */,
+				B7B4878C9044CFAF16DB0AA9 /* Home */,
+				89D9E55476DFEA4C6DFAE1C9 /* Me */,
+				5793ECF83374935D2016B35E /* Nudges */,
+				A51DBBB1C2F59F194FAC2D8E /* People */,
+				F2D76E84C3D374C80841A273 /* SendNudge */,
+				AB63CFDDDE1810EF37879847 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CE84A2D2F3EE950DFD296F3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7B309814C1B3A168BFA35B6A /* AppDependencies.swift */,
+				A61F096EE0F8B7F76B4272ED /* ContentView.swift */,
+				C1260DD42E7296ADCB566815 /* Info.plist */,
+				C8ED4C897C0613449C14762C /* NudgeNudgeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0236A940EB253610AC9A9D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E2D2B99C7A5507E7B2F0A86 /* ActivityRowView.swift */,
+				9A0C33BB40B083E730BB232E /* NudgeRowView.swift */,
+				F9AFCDBC2E573FABB36F7281 /* PersonRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D70FDA9558E58A0C63D2F044 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				176D1274DF9F14C91BDC8295 /* ActivityView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		F2D76E84C3D374C80841A273 /* SendNudge */ = {
+			isa = PBXGroup;
+			children = (
+				8A9784D05B34D3C0668E9E4E /* SendNudgeView.swift */,
+			);
+			path = SendNudge;
+			sourceTree = "<group>";
+		};
+		F676E9E290FA15E0FB721501 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CD15B9779CDCE94EDD2A097 /* NotificationService.swift */,
+				E00DBB27D7405CD99FDCF1DD /* NudgeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FFC1840DF78F95A3A1073256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DCEB67CFB1EAE5058F9C497 /* NudgeNudge.app */,
+				CC474A7A946250562AA19E05 /* NudgeNudgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF7F14A7D0BF5736537D492 /* NudgeNudge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963B84E354C5B2F0F8EAE6B0 /* Build configuration list for PBXNativeTarget "NudgeNudge" */;
+			buildPhases = (
+				52BBB209002507432AF23CB5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NudgeNudge;
+			packageProductDependencies = (
+			);
+			productName = NudgeNudge;
+			productReference = 0DCEB67CFB1EAE5058F9C497 /* NudgeNudge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8EAD45CACB31508FC103080 /* NudgeNudgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1E1E67417393AAEA434700 /* Build configuration list for PBXNativeTarget "NudgeNudgeTests" */;
+			buildPhases = (
+				6263854BA6E4432E4D137BAE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1081823878DADD9A3B55111F /* PBXTargetDependency */,
+			);
+			name = NudgeNudgeTests;
+			packageProductDependencies = (
+			);
+			productName = NudgeNudgeTests;
+			productReference = CC474A7A946250562AA19E05 /* NudgeNudgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80252F44DE0820B90AAB1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = A18688A8BC37356CA5A2C805 /* Build configuration list for PBXProject "NudgeNudge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 135061C1D832805873B18556;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FFC1840DF78F95A3A1073256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF7F14A7D0BF5736537D492 /* NudgeNudge */,
+				C8EAD45CACB31508FC103080 /* NudgeNudgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BBB209002507432AF23CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60470F4453746358CBF18A31 /* ActivityRowView.swift in Sources */,
+				E2049095C9C793DB49E75500 /* ActivityView.swift in Sources */,
+				586EA8C8B0859550736DBA33 /* AddPersonView.swift in Sources */,
+				94942643CE27200CD7FCD68E /* AppDependencies.swift in Sources */,
+				7352A16FB5318F0621F36EAB /* Color+Extensions.swift in Sources */,
+				9EEC6361D7B8BF9885465073 /* ContentView.swift in Sources */,
+				4639C7C51EBD276CE76A78F8 /* CreateNudgeView.swift in Sources */,
+				20DBFE81A622DAF86095943A /* CreateNudgeViewModel.swift in Sources */,
+				1CCA671614A50C45F07F90CD /* Date+Extensions.swift in Sources */,
+				A6A7BA076D990A071D05C2BD /* HomeView.swift in Sources */,
+				25B046BB005F2AAF9E8B521F /* HomeViewModel.swift in Sources */,
+				85019C248F1DCA2DDAEEFDA6 /* MeView.swift in Sources */,
+				F11350F8F7714BAB86ADF9A3 /* NotificationService.swift in Sources */,
+				5AEB4C41FA02F8B8C3E82BB5 /* Nudge.swift in Sources */,
+				FDFAD7EA9EF5E73FF43F0238 /* NudgeDetailView.swift in Sources */,
+				34DC891AE7A81EC7BC70D265 /* NudgeListView.swift in Sources */,
+				4B36610CC1AFA689A2A6DB36 /* NudgeListViewModel.swift in Sources */,
+				C52BCCA1095D127111123BF7 /* NudgeNudgeApp.swift in Sources */,
+				16184200126E591BD0F74A27 /* NudgePreset.swift in Sources */,
+				20316B43E28BF8B00A3AAE6C /* NudgeRecord.swift in Sources */,
+				1ACC0549FB89DDBB3BCAC422 /* NudgeRowView.swift in Sources */,
+				FBB75A826288FA64750EB529 /* NudgeService.swift in Sources */,
+				F984B41B8A2124993777D067 /* Person.swift in Sources */,
+				3071AF46D871AFF897F99060 /* PersonRowView.swift in Sources */,
+				EB295B3E530B566067B56AFB /* SendNudgeView.swift in Sources */,
+				0D0689E1DBB062F3F2CD0193 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6263854BA6E4432E4D137BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E101D1F2DCAE458E4F6B3EA9 /* NudgeNudgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1081823878DADD9A3B55111F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF7F14A7D0BF5736537D492 /* NudgeNudge */;
+			targetProxy = 2F16B69808F78BA0D26C6114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2835C4E4FBC3184E73399E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neha.NudgeNudge;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40A10ACE96C2E5639D9AD7EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neha.NudgeNudgeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NudgeNudge.app/NudgeNudge";
+			};
+			name = Debug;
+		};
+		46644581C665D831EACA99E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8CDA6A0B3CF6C584859214A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neha.NudgeNudgeTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NudgeNudge.app/NudgeNudge";
+			};
+			name = Release;
+		};
+		91A3CF000074BFF373F72F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C55ACE04A037A8546C4E6686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neha.NudgeNudge;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963B84E354C5B2F0F8EAE6B0 /* Build configuration list for PBXNativeTarget "NudgeNudge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2835C4E4FBC3184E73399E40 /* Debug */,
+				C55ACE04A037A8546C4E6686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A18688A8BC37356CA5A2C805 /* Build configuration list for PBXProject "NudgeNudge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A3CF000074BFF373F72F0B /* Debug */,
+				46644581C665D831EACA99E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA1E1E67417393AAEA434700 /* Build configuration list for PBXNativeTarget "NudgeNudgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A10ACE96C2E5639D9AD7EE /* Debug */,
+				8CDA6A0B3CF6C584859214A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80252F44DE0820B90AAB1BF /* Project object */;
+}

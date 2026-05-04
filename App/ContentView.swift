@@ -4,24 +4,19 @@ struct ContentView: View {
     var body: some View {
         TabView {
             HomeView()
-                .tabItem {
-                    Label("Home", systemImage: "house.fill")
-                }
+                .tabItem { Label("Home", systemImage: "house.fill") }
 
-            NudgeListView()
-                .tabItem {
-                    Label("Nudges", systemImage: "bell.fill")
-                }
+            ActivityView()
+                .tabItem { Label("Activity", systemImage: "chart.bar.fill") }
 
-            SettingsView()
-                .tabItem {
-                    Label("Settings", systemImage: "gearshape.fill")
-                }
+            MeView()
+                .tabItem { Label("Me", systemImage: "person.fill") }
         }
+        .tint(Color.nudgePink)
     }
 }
 
 #Preview {
     ContentView()
-        .environment(AppDependencies())
+        .modelContainer(AppDependencies.modelContainer)
 }

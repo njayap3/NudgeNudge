@@ -7,7 +7,7 @@ struct NudgeNudgeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
                 .environment(dependencies)
         }
         .modelContainer(AppDependencies.modelContainer)
